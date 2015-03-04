@@ -15,6 +15,7 @@ class Chat extends CI_Controller {
 		{
 			//no name given.
 			//redirect to home page with error message.
+			header("Location:index.php");
 		}
 
 	}

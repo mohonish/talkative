@@ -1,3 +1,7 @@
-<div id = "chatbox">
-	<h2>Said by <?php echo $uname ?> - Talkative</h2>
-</div>
+	<div id="chatbox">
+		<form>
+			<input type="hidden" name="uname" value="<?php echo $uname ?>" />
+  			<input type="text" name="message" />
+  			<input type="submit" value="Submit" />
+		</form> 
+	</div>
