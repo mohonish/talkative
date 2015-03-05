@@ -10,7 +10,7 @@ class Chat extends CI_Controller {
 		{
 			
 			$msg = $data['uname'] . " just joined the conversation.";
-			$sql = "INSERT INTO messages (uname, msg, posted_on) VALUES ('DAEMON', '$msg', UNIX_TIMESTAMP(now()));";
+			$sql = "INSERT INTO messages (uname, msg) VALUES ('DAEMON', '$msg');";
 			$this->db->query($sql);
 			
 			$this->load->view('templates/header', $data);

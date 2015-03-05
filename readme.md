@@ -1,5 +1,11 @@
 PHP server that uses long-polling to simulate real time chat application.
 
-Used: CodeIgniter 2.2.1
+Used:
+-----
+PHP Framework: CodeIgniter 2.2.1
+CSS Boilerplate: Skeleton 2.0.4
 
-(Update further details on completion)
+ToDo:
+------
+> Fix scrollbar issue when number of messages increase.
+> More readable timings.

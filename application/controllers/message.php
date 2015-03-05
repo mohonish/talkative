@@ -6,7 +6,7 @@ class Message extends CI_Controller {
 	{
 		$uname = $this->input->post('uname', TRUE);
 		$message = $this->input->post('message', TRUE);
-		$sql = "INSERT INTO messages (uname, msg, posted_on) VALUES ('$uname', '$message', UNIX_TIMESTAMP(now()));";
+		$sql = "INSERT INTO messages (uname, msg) VALUES ('$uname', '$message');";
 		$query = $this->db->query($sql);
 
 		if ($query)
