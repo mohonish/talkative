@@ -1,10 +1,7 @@
-//creating db
 CREATE DATABASE talkative;
 
-//select database.
 USE talkative;
 
-//create messages table
 CREATE TABLE messages(
 id int AUTO_INCREMENT PRIMARY KEY,
 uname varchar(255),
@@ -12,7 +9,6 @@ msg varchar(255),
 posted_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-//create a new user and grant privileges to it.
 CREATE USER 'chatctrl'@'localhost' IDENTIFIED BY '0000';
 GRANT ALL PRIVILEGES ON talkative.* TO 'chatctrl'@'localhost';
 FLUSH privileges;

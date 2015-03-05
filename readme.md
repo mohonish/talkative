@@ -9,3 +9,9 @@ ToDo:
 ------
 > Fix scrollbar issue when number of messages increase.
 > More readable timings.
+
+How to use:
+-----------
+1. Upload files to webserver.
+2. Run the sql queries in queries.txt file on your mysql db.
+3. Aaaand, you're good to go.
