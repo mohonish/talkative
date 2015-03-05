@@ -1,0 +1,30 @@
+/* overrides to the css applied by skeleton boilerplate */
+
+/* global */
+
+body {
+	margin-top: 25px;
+}
+
+/* header template page */
+
+#inputform {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+#msgbox {
+    width: 60%;
+}
+
+/* chatbox
+
+#chatbox {
+	overflow: auto;
+	max-height: 100px;
+	white-space: nowrap
+}
+
+*/
+
+/* welcome page */
